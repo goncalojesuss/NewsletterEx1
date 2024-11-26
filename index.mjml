@@ -1,4 +1,4 @@
-<mjml>
+<mjml lang="pt">
 
   <mj-head>
 
@@ -7,23 +7,48 @@
       <mj-section background-color="#fff" />
     </mj-attributes>
 
+    <mj-title>Hello MJML</mj-title>
+    
   </mj-head>
 
   <mj-body background-color="#eee">
     <mj-section>
 
       <mj-column>
-        <mj-text>
-          First column
+        <mj-text 
+                 font-family="Helvetica" color="#F45E43">
+          <a href="https://goncalojesuss.github.io/NewsletterEx1/"target="_blank">
+          <span style="font-size:12px;">
+          		Versao online
+          </span>
+          </a>
         </mj-text>
       </mj-column>
+    </mj-section>
 
-      <mj-column>
-        <mj-text>
-          Second column
-        </mj-text>
-      </mj-column>
-
+    <mj-section background-color="#fff">
+    <mj-column> 
+       <mj-button href="https://documentation.mjml.io/#mj-button" font-family="Helvetica" background-color="#f45e43" color="white">
+          Carrinho de compras AHAHHA!
+      </mj-button>
+    </mj-column>
+      </mj-section>
+    
+    
+     <mj-section background-color="#856">
+    <mj-column> 
+       <mj-image width="300px" src="img/eg.png">
+         </mj-column>
+      
+         <mj-column>
+        <mj-image width="300px" src="img/gears.png"> 
+       
+          </mj-image>
+      </mj-image> 
+    </mj-column>
+      </mj-section>
+    
+    
     </mj-section>
   </mj-body>
 </mjml>
